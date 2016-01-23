@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,300,700);
+
+/* general styles */
+h1 {
+    font-family: 'Raleway', Tahoma, sans-serif;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+}
+h3 {
+    font-family: 'Raleway', Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+p {
+    font-family: 'Open Sans Condesed', Arial, sans-serif;
+    font-weight: 300;
+}
+/* Menu & home */
+.navbar div {
+    font-family: "Raleway", Tahoma, sans-serif;
+    background-color: rgb(58,43,38);
+}
+
+#home {
+    font-family: "Raleway", sans-serif;
+    background: url(../img/b.jpg) no-repeat center top;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-top: 30%;
+    text-align:center;
+    background-attachment: fixed;
+    /*background-position: center center;*/
+    min-height: 300px;
+    width: 100%;
+}
+.box {
+    display: block;
+    height: 30px;
+    position: absolute;
+    
+   }
+   
+.front {
+    background-color: rgb(254,197,6);
+}
+
+
+/* skills bars */
+.barras {
+  width:320px; 
+  margin:10px auto;
+}
+.barra {
+  width:300px; 
+  height:30px; 
+  background:#CCC; 
+  margin:10px;
+}
+.barra-nivel {
+  height:30px; 
+  background:#444;
+  width:1px;
+  -webkit-transition: width 1s ease;
+  -moz-transition: width 1s ease;
+  transition: width 1s ease;
+}
+.valor-nivel {
+  line-height:30px; 
+  color:#fff; 
+  margin-left:10px; 
+  font-family:"Raleway"; 
+  font-size:12px;
+}
+
